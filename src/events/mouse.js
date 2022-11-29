@@ -486,7 +486,7 @@ p5.prototype._setMouseButton = function(e) {
  *   fill(value);
  *   rect(25, 25, 50, 50);
  *   describe(`black 50-by-50 rect becomes lighter with mouse movements until
- *   white then resets no image displayed`);
+ *   white then goes back to black and starts again`);
  * }
  * function mouseMoved() {
  *   value = value + 5;
